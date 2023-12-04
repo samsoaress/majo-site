@@ -131,7 +131,12 @@
 {
   margin-left: -10rem;
 }
-
+#servicos #recipeCarousel a,
+#servicos #recipeCarousel2 a,
+#servicos #recipeCarousel3 a,
+#servicos #recipeCarousel4 a,
+#servicos #recipeCarousel5 a,
+#servicos #recipeCarousel6 a
 #servicos #recipeCarousel a:last-child {
   margin-right: -10rem;
 }
