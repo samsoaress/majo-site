@@ -1,4 +1,4 @@
-#inicio{
+#inicio {
   padding: 0 0 0 4rem !important;
 }
 
@@ -17,7 +17,6 @@
   box-shadow: none;
 }
 
-
 #inicio h1 {
   position: absolute;
   width: calc(100% - 485px);
@@ -29,22 +28,12 @@
   color: #38BBC9;
 }
 
-/* .cid-tX8ihy9Itf {
+.cid-tX8ihy9Itf {
   text-align-last: start;
-} */
+}
 
 .cid-tX8ihy9Itf .list, .cid-tX8ihy9Itf .item-wrap {
   text-align: left;
-}
-
-.carousel i {
-  font-size: 5rem;
-  color: #38BBC9;
-}
-
-.carousel-item {
-  align-content: center;
-  justify-content: center;
 }
 
 .servicos {
@@ -63,14 +52,6 @@
   height: 6rem;
 }
 
-#servicos #recipeCarousel a {
-  margin-left: -5rem;
-}
-
-#servicos #recipeCarousel a:last-child{
-  margin-right: -5rem;
-}
-
 
 .card {
   background-color: #fff;
@@ -78,21 +59,6 @@
 
 .servicos-inicio h1 {
   font-size: 4rem;
-}
-
-.cid-tX8esStH6W .carousel-control {
-  background: none !important;
-  border: none !important;
-  transition: none !important;
-}
-
-.embla__button:hover, .carousel-control:hover {
-  background-color: #fff;
-  opacity: 1 !important;
-}
-
-.carousel-control:hover {
-  /* background: none !important; */
 }
 
 .footer {
@@ -108,8 +74,22 @@
   height: 7rem;
 }
 
-.cid-tX8babghc0{
-  padding-bottom: 8rem;
+#mydepoimentos {
+  margin-top: 5rem;
+}
+
+#mydepoimentos p {
+  height: 7rem;
+  margin-top: 1rem;
+}
+
+.cid-tX8babghc0 .row {
+  padding: 0 0 0 20rem;
+  margin-top: -50px;
+}
+
+.cid-tX8ihy9Itf .row {
+  padding: 2.25rem 0;
 }
 
 #article04-1t h4 {
@@ -117,14 +97,89 @@
   font-size: 1rem;
 }
 
+.carousel i {
+  font-size: 5rem;
+  color: #38BBC9;
+}
+
+#video05-2c .cid-tX8esStH6W .carousel-control {
+  background: none !important;
+  border: none !important;
+  transition: none !important;
+}
+
+#video05-2c .carousel-item {
+  align-content: center;
+  justify-content: center;
+}
+
+.carousel-control:hover {
+  /* background: none !important; */
+}
+
+#video05-2c .embla__button:hover, #video05-2c .carousel-control:hover {
+  background: none !important;
+  opacity: 1 !important;
+}
+
+#servicos #recipeCarousel a {
+  margin-left: -10rem;
+}
+
+#servicos #recipeCarousel a:last-child {
+  margin-right: -10rem;
+}
+
+.SobreMajo {
+  color: #38BBC9;
+}
+
 /* Responsivo */
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   #inicio h1 {
     width: auto;
-}
-.cid-tX8ihy9Itf .mbr-section-btn{
-  text-align: left;
-}
+  }
+
+  .cid-tX8ihy9Itf .mbr-section-btn {
+    text-align: left;
+  }
+
+
 }
 
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}

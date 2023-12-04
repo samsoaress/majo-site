@@ -1,11 +1,11 @@
---------------------------------------   carousel   -------------------------------------------
 
-/* #depoimentos .carousel {
+#depoimentos .carousel {
   margin: 30px auto 60px;
   padding: 0 80px;
 } */
-/* 
-#depoimentos .carousel .carousel-item {
+
+
+/* #depoimentos .carousel .carousel-item {
   overflow: hidden;
 } */
 
@@ -86,30 +86,28 @@
   margin-right: -3px;
 } */
 
-/* #depoimentos .carousel-indicators {
-  bottom: -50px;
-} */
+#depoimentos .carousel-indicators {
+  bottom: -79px;
+}
 
-/* #depoimentos .carousel-indicators li, .carousel-indicators li.active {
-  width: 10px;
-  height: 10px;
+#depoimentos .carousel-indicators li, .carousel-indicators li.active {
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   margin: 4px;
   border: none;
-} */
+}
 
-/* #depoimentos .carousel-indicators li {
-  background: #9c0505;
-} */
 
-/* #depoimentos .carousel-indicators li.active {
-  background: #f1eeee;
-} */
-/* 
+#depoimentos .carousel-indicators li {
+  background: #fff !important;
+  border: 2px solid #fff !important;
+}
+
 #depoimentos .ratings {
   display: flex;
-} */
-/* 
+}
+
 #depoimentos .carousel-item {
   text-align: left;
-} */
+}
