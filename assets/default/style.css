@@ -7,8 +7,10 @@
   background-repeat: no-repeat;
   height: 50rem;
   width: auto;
-  background-position: calc(100% - 28%) calc(100% - 10%);
+  background-position: right;
   background-size: 60rem;
+  position: absolute;
+  right: -7rem;
 }
 
 .cid-tX8babghc0{
