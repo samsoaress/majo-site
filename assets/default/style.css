@@ -164,10 +164,6 @@
   justify-content: center;
 }
 
-.carousel-control:hover {
-  /* background: none !important; */
-}
-
 #video05-2c .embla__button:hover, #video05-2c .carousel-control:hover {
   background: none !important;
   opacity: 1 !important;
