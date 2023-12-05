@@ -241,7 +241,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 0;
+    width: 200;
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
