@@ -1,6 +1,6 @@
 
 for (var j = 0; j < 5; j++) {
-    let css = !#servicos #recipeCarousel' + j + ' .carousel .carousel-item'
+    let css = #servicos #recipeCarousel' + j + ' .carousel .carousel-item'
     let items = document.querySelectorAll(css)
     console.log(css)
     console.log(items)
