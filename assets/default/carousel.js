@@ -1,5 +1,5 @@
 
-for (var j = 0; j < 5; j++) {
+for (var j = 1; j < 5; j++) {
     let css = "#recipeCarousel" + j + " .carousel .carousel-item";
     let items = document.querySelectorAll(css);
     console.log(css)
