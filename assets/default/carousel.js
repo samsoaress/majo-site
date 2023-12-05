@@ -1,6 +1,6 @@
 
 for (var i = 1; i < 5; i++) {
-    let items = document.querySelectorAll('#servicos .carousel .carousel-item')
+    let items = document.querySelectorAll('#recipeCarousel .carousel .carousel-item')
 
     items.forEach((el) => {
         const minPerSlide = 4
