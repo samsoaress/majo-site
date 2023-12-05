@@ -4,6 +4,7 @@ for (var i = 0; i < 5; i++) {
     let css = '#servicos #recipeCarousel' + i + ' .carousel .carousel-item'
     let items = document.querySelectorAll(css)
 
+    console.lo
     items.forEach((el) => {
         const minPerSlide = 4
         let next = el.nextElementSibling
