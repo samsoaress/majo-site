@@ -6,10 +6,11 @@
   padding: 0 0 0 4rem !important;
 }
 
-.header1 .container{
+.header1 .container {
   height: 44rem;
 }
-.imagem-fundo{
+
+.imagem-fundo {
   background-image: url(../../assets/images/beleza.png);
   background-repeat: no-repeat;
   height: 50rem;
@@ -20,7 +21,7 @@
   top: -7rem;
 }
 
-.cid-tX8babghc0{
+.cid-tX8babghc0 {
   margin-top: 72px;
 }
 
@@ -63,24 +64,27 @@
   padding: 0 6rem;
 }
 
-#servicos h2{
+
+#servicos h2 {
   text-align: left;
   font-weight: bold;
   color: #A79383;
   font-size: 36px;
 }
 
-#header h1{
-  font-size:72px;
-}
-#header h3{
-  font-size:26px;
-}
-#header a{
-  font-size:16px !important;
+#header h1 {
+  font-size: 72px;
 }
 
-#servicos label{
+#header h3 {
+  font-size: 26px;
+}
+
+#header a {
+  font-size: 16px !important;
+}
+
+#servicos label {
   font-size: 18px;
 }
 
@@ -131,7 +135,7 @@
 }
 
 .cid-tX8babghc0 .row {
-  flex-direction: row;  
+  flex-direction: row;
 }
 
 /* .cid-tX8babghc0 .row {
@@ -153,7 +157,7 @@
   color: #38BBC9;
 }
 
-.card-img img{
+.card-img img {
   padding: 0 10px;
 }
 
@@ -173,7 +177,7 @@
   opacity: 1 !important;
 }
 
-.hg-info-servico{
+.hg-info-servico {
   height: 70px;
 }
 
@@ -182,27 +186,26 @@
 #servicos #recipeCarousel3 a,
 #servicos #recipeCarousel4 a,
 #servicos #recipeCarousel5 a,
-#servicos #recipeCarousel6 a
-{
+#servicos #recipeCarousel6 a {
   margin-left: -10rem;
 }
 
-#servicos #recipeCarousel1 a:last-child ,
-#servicos #recipeCarousel2 a:last-child ,
-#servicos #recipeCarousel3 a:last-child ,
-#servicos #recipeCarousel4 a:last-child ,
-#servicos #recipeCarousel5 a:last-child ,
-#servicos #recipeCarousel6 a:last-child  {
+#servicos #recipeCarousel1 a:last-child,
+#servicos #recipeCarousel2 a:last-child,
+#servicos #recipeCarousel3 a:last-child,
+#servicos #recipeCarousel4 a:last-child,
+#servicos #recipeCarousel5 a:last-child,
+#servicos #recipeCarousel6 a:last-child {
   margin-right: -10rem;
 }
 
 
-#servicos #recipeCarousel1 a.btn:last-child ,
-#servicos #recipeCarousel2 a.btn:last-child ,
-#servicos #recipeCarousel3 a.btn:last-child ,
-#servicos #recipeCarousel4 a.btn:last-child ,
-#servicos #recipeCarousel5 a.btn:last-child ,
-#servicos #recipeCarousel6 a.btn:last-child  {
+#servicos #recipeCarousel1 a.btn:last-child,
+#servicos #recipeCarousel2 a.btn:last-child,
+#servicos #recipeCarousel3 a.btn:last-child,
+#servicos #recipeCarousel4 a.btn:last-child,
+#servicos #recipeCarousel5 a.btn:last-child,
+#servicos #recipeCarousel6 a.btn:last-child {
   background-color: #38BBC9 !important;
 }
 
@@ -212,7 +215,49 @@
 
 /* Responsivo */
 
-@media (max-width:667px) {
+
+
+
+@media (max-width: 768px) {
+  .carousel-indicators {
+    display: none;
+  }
+
+
+  #sobre-nos h1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #sobre-nos h4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #depoimentos .carousel {
+    margin: none;
+    padding: none;
+  }
+
+  .carousel-indicators {
+    margin: -4rem;
+  }
+
+  .TextoAssineja p {
+    margin: 1rem;
+  }
+
+  .TextoAssineja a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4rem;
+
+  }
+
+  .header1 .container {
+    height: 42rem;
+  }
 
   .avaliaçãoGratis {
     margin: 2rem;
@@ -234,14 +279,8 @@
     margin: 2rem;
   }
 
-  .Horario {}
-
-}
-
-
-@media (max-width: 768px) {
-  .header1 .container{
-    height: 42rem;
+  #sobre-nos>div>div {
+    flex-direction: column-reverse;
   }
 
   #inicio h1 {
@@ -252,7 +291,7 @@
     text-align: left;
   }
 
-  .imagem-fundo{
+  .imagem-fundo {
     background-position: center;
     background-size: 332px 396px;
     position: absolute;
@@ -264,21 +303,22 @@
     margin-top: 0;
   }
 
-  #header h1{
+  #header h1 {
     font-size: 32px;
     text-align: center;
     margin-bottom: 1rem !important;
   }
-  #header h3{
+
+  #header h3 {
     font-size: 16px !important;
     text-align: center;
   }
 
-  .agendar-horario{
+  .agendar-horario {
     text-align: center;
   }
 
-  .mt-5{
+  .mt-5 {
     margin-top: 1rem !important;
   }
 
@@ -287,15 +327,16 @@
     width: 100%;
     align-items: flex-end;
   }
-  .p-0{
+
+  .p-0 {
     padding: auto;
   }
 
-  .carousel i{
+  .carousel i {
     font-size: 2.7rem;
   }
 
-  .card-img img{
+  .card-img img {
     padding: 0 35px;
   }
 }
