@@ -1,6 +1,6 @@
 
 for (var i = 0; i < 5; i++) {
-    debugger
+    debugger;
     let css = '#servicos #recipeCarousel' + i + ' .carousel .carousel-item'
     let items = document.querySelectorAll(css)
 
