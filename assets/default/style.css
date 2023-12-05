@@ -194,6 +194,7 @@
 /* Responsivo */
 
 @media (max-width: 768px) {
+  .header1 .container
   #inicio h1 {
     width: auto;
   }
