@@ -1,5 +1,5 @@
 
-fo
+for (var i = 0; i <)
 let items = document.querySelectorAll('#servicos .carousel .carousel-item')
 
 items.forEach((el) => {
