@@ -246,6 +246,8 @@
     width: 199.7px !important;
   }
 
+  .carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev
+
 }
 
 
