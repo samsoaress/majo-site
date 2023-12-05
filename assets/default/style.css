@@ -6,6 +6,24 @@
   padding: 0 0 0 4rem !important;
 }
 
+.header1 .container{
+  height: 44rem;
+}
+.imagem-fundo{
+  background-image: url(../../assets/images/beleza.png);
+  background-repeat: no-repeat;
+  height: 50rem;
+  background-position: right;
+  background-size: 878px 735px;
+  position: absolute;
+  right: -7rem;
+  top: -7rem;
+}
+
+.cid-tX8babghc0{
+  margin-top: 72px;
+}
+
 .cid-tX8n5YQuiW .container, .cid-tX8n5YQuiW .container {
   border-radius: 0 !important;
   margin: 0;
@@ -45,6 +63,27 @@
   padding: 0 6rem;
 }
 
+#servicos h2{
+  text-align: left;
+  font-weight: bold;
+  color: #A79383;
+  font-size: 36px;
+}
+
+#header h1{
+  font-size:72px;
+}
+#header h3{
+  font-size:26px;
+}
+#header a{
+  font-size:16px !important;
+}
+
+#servicos label{
+  font-size: 18px;
+}
+
 .servicos-inicio {
   background-color: #38BBC9;
   border-radius: 1rem;
@@ -54,6 +93,10 @@
   align-items: center;
   color: #fff;
   height: 6rem;
+  position: absolute;
+  bottom: -2.5rem;
+  z-index: 1;
+  width: 100%;
 }
 
 
@@ -88,9 +131,13 @@
 }
 
 .cid-tX8babghc0 .row {
+  flex-direction: row;  
+}
+
+/* .cid-tX8babghc0 .row {
   padding: 0 0 0 20rem;
   margin-top: -50px;
-}
+} */
 
 .cid-tX8ihy9Itf .row {
   padding: 2.25rem 0;
@@ -106,6 +153,10 @@
   color: #38BBC9;
 }
 
+.card-img img{
+  padding: 0 10px;
+}
+
 #video05-2c .cid-tX8esStH6W .carousel-control {
   background: none !important;
   border: none !important;
@@ -117,21 +168,42 @@
   justify-content: center;
 }
 
-.carousel-control:hover {
-  /* background: none !important; */
-}
-
 #video05-2c .embla__button:hover, #video05-2c .carousel-control:hover {
   background: none !important;
   opacity: 1 !important;
 }
 
-#servicos #recipeCarousel a {
+.hg-info-servico{
+  height: 70px;
+}
+
+#servicos #recipeCarousel1 a,
+#servicos #recipeCarousel2 a,
+#servicos #recipeCarousel3 a,
+#servicos #recipeCarousel4 a,
+#servicos #recipeCarousel5 a,
+#servicos #recipeCarousel6 a
+{
   margin-left: -10rem;
 }
 
-#servicos #recipeCarousel a:last-child {
+#servicos #recipeCarousel1 a:last-child ,
+#servicos #recipeCarousel2 a:last-child ,
+#servicos #recipeCarousel3 a:last-child ,
+#servicos #recipeCarousel4 a:last-child ,
+#servicos #recipeCarousel5 a:last-child ,
+#servicos #recipeCarousel6 a:last-child  {
   margin-right: -10rem;
+}
+
+
+#servicos #recipeCarousel1 a.btn:last-child ,
+#servicos #recipeCarousel2 a.btn:last-child ,
+#servicos #recipeCarousel3 a.btn:last-child ,
+#servicos #recipeCarousel4 a.btn:last-child ,
+#servicos #recipeCarousel5 a.btn:last-child ,
+#servicos #recipeCarousel6 a.btn:last-child  {
+  background-color: #38BBC9 !important;
 }
 
 .SobreMajo {
@@ -168,6 +240,10 @@
 
 
 @media (max-width: 768px) {
+  .header1 .container{
+    height: 42rem;
+  }
+
   #inicio h1 {
     width: auto;
   }
@@ -176,7 +252,52 @@
     text-align: left;
   }
 
+  .imagem-fundo{
+    background-position: center;
+    background-size: 332px 396px;
+    position: absolute;
+    right: auto;
+    top: 4rem;
+  }
 
+  .cid-tX8babghc0 {
+    margin-top: 0;
+  }
+
+  #header h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 1rem !important;
+  }
+  #header h3{
+    font-size: 16px !important;
+    text-align: center;
+  }
+
+  .agendar-horario{
+    text-align: center;
+  }
+
+  .mt-5{
+    margin-top: 1rem !important;
+  }
+
+  .servicos-inicio {
+    height: 4rem;
+    width: 100%;
+    align-items: flex-end;
+  }
+  .p-0{
+    padding: auto;
+  }
+
+  .carousel i{
+    font-size: 2.7rem;
+  }
+
+  .card-img img{
+    padding: 0 35px;
+  }
 }
 
 
