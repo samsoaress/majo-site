@@ -199,7 +199,7 @@
 #servicos #recipeCarousel4 a:last-child ,
 #servicos #recipeCarousel5 a:last-child ,
 #servicos #recipeCarousel6 .btn a:last-child  {
-  background;
+  background: red;
 }
 
 .SobreMajo {
