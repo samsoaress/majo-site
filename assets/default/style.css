@@ -195,7 +195,7 @@
 
 @media (max-width: 768px) {
   .header1 .container{
-    
+    height: 44rem;
   }
   #inicio h1 {
     width: auto;
