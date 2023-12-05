@@ -237,6 +237,15 @@
   .carousel i{
     font-size: 2.7rem;
   }
+  .card-img {
+    display: block;
+    justify-content: center !important;
+  }
+
+  .card-img img{
+    width: 199.7px !important;
+  }
+
 
   .card {
     position: relative;
