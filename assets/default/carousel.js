@@ -1,5 +1,5 @@
 
-for (var j = 0; j < 5; ij+) {
+for (var j = 0; j < 5; j+) {
     let css = '#servicos #recipeCarousel' + i + ' .carousel .carousel-item'
     let items = document.querySelectorAll(css)
     console.log(css)
