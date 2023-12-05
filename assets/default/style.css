@@ -193,19 +193,19 @@
 }
 
 
-#servicos #recipeCarousel1 .btn a:last-child ,
+#servicos #recipeCarousel1 a:last-child ,
 #servicos #recipeCarousel2 .btn a:last-child ,
 #servicos #recipeCarousel3 .btn a:last-child ,
 #servicos #recipeCarousel4 .btn a:last-child ,
 #servicos #recipeCarousel5 .btn a:last-child ,
-#servicos #recipeCarousel6  a.btn:last-child  {
+#servicos #recipeCarousel6 .btn a:last-child  {
   background: red;
 }
 
 .SobreMajo {
   color: #38BBC9;
 }
-#recipeCarousel1 > div.carousel-inner.my-5 > div:nth-child(3) > div:nth-child(1) > div > div.mbr-section-btn.mt-4 > a
+
 /* Responsivo */
 
 @media (max-width: 768px) {
