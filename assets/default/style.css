@@ -237,7 +237,9 @@
   .carousel i{
     font-size: 2.7rem;
   }
-  .card-img
+  .card-img img{
+    
+  }
 
 }
 
