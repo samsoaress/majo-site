@@ -1,5 +1,5 @@
 
-for (var i = 1; i < minPerSlide; i++) {
+for (var i = 1; i < 5; i++) {
     let items = document.querySelectorAll('#servicos .carousel .carousel-item')
 
     items.forEach((el) => {
