@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Mitr:wght@400;700&family=Modak&family=Roboto:wght@400;700&display=swap');
+
+
+
 #inicio {
   padding: 0 0 0 4rem !important;
 }
@@ -135,6 +139,33 @@
 }
 
 /* Responsivo */
+
+@media (max-width:667px) {
+
+  .avaliaçãoGratis {
+    margin: 2rem;
+    padding: 1rem;
+    margin-top: -1rem;
+  }
+
+  .avaliaçãoGratis strong {
+    font-size: 1.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .avaliaçãoGratis a {
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    margin: 2rem;
+  }
+
+  .Horario {}
+
+}
+
 
 @media (max-width: 768px) {
   #inicio h1 {
