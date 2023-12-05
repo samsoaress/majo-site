@@ -2,8 +2,6 @@
 for (var j = 1; j < 5; j++) {
     let css = "#recipeCarousel" + j + " .carousel-item";
     let items = document.querySelectorAll(css);
-    console.log(css)
-    console.log(items)
     items.forEach((el) => {
         const minPerSlide = 4
         let next = el.nextElementSibling
