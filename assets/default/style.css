@@ -225,6 +225,21 @@
   .mt-5{
     margin-top: 1rem
   }
+  .servicos-inicio {
+    background-color: #38BBC9;
+    border-radius: 1rem;
+    margin-top: -8rem;
+    display: flex;
+    color: #fff;
+    height: 4rem;
+    position: absolute;
+    bottom: -2.5rem;
+    margin-left: auto;
+    z-index: 1;
+    justify-content: space-around;
+    width: 327px;
+    align-items: flex-end;
+}
 }
 
 
