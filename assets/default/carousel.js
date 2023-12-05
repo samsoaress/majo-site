@@ -1,7 +1,7 @@
 
 for (var i = 1; i < 5; i++) {
-    let css = '#recipeCarousel'+i+' .carousel .carousel-item'
-    let items = document.querySelectorAll()
+    let css = '#recipeCarousel' + i + ' .carousel .carousel-item'
+    let items = document.querySelectorAll(css)
 
     items.forEach((el) => {
         const minPerSlide = 4
