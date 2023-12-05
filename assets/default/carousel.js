@@ -1,6 +1,6 @@
 
 for (var i = 1; i < 5; i++) {
-    let css = '#recipeCarousel' ''.carousel .carousel-item'
+    let css = '#recipeCarousel' '.carousel .carousel-item'
     let items = document.querySelectorAll()
 
     items.forEach((el) => {
