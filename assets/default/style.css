@@ -202,7 +202,11 @@
     text-align: left;
   }
   .imagem-fundo{
-    
+    background-position: center;
+    background-size: 332px 396px;
+    position: absolute;
+    right: auto;
+    top: 7rem;
   }
 
 }
