@@ -240,7 +240,6 @@
   .card-img {
     display: flex;
     justify-content: center !important;
-    align-items: center !important;
   }
 
   .card-img img{
