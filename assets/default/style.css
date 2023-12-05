@@ -147,6 +147,9 @@
   font-size: 5rem;
   color: #38BBC9;
 }
+.card-img img{
+  padding: 0 35px;
+}
 
 #video05-2c .cid-tX8esStH6W .carousel-control {
   background: none !important;
