@@ -241,12 +241,6 @@
   .card-img img{
     padding: 0 35px;
   }
-
-   .card {
-    align-items: center;
-    flex-direction: column;
-  } 
-
 }
 
 
