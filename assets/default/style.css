@@ -198,7 +198,7 @@
 #servicos #recipeCarousel3 a:last-child ,
 #servicos #recipeCarousel4 a:last-child ,
 #servicos #recipeCarousel5 a:last-child ,
-#servicos #recipeCarousel6 btn a:last-child  {
+#servicos #recipeCarousel6 .btn a:last-child  {
   margin-right: -10rem;
 }
 
