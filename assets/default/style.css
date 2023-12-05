@@ -238,7 +238,10 @@
     font-size: 2.7rem;
   }
   .card-img {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   }
   .card-img img{
 
