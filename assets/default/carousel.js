@@ -1,5 +1,6 @@
 
 for (var i = 1; i < 5; i++) {
+    
     let items = document.querySelectorAll()
 
     items.forEach((el) => {
