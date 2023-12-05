@@ -217,10 +217,8 @@
     text-align: center;
   }
   #header h3{
-    font-size: 1px;
+    font-size: 16px !important;
     text-align: center;
-    padding: 0;
-    margin-bottom: 1rem !important;
   }
 }
 
