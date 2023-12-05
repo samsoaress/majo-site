@@ -222,7 +222,7 @@
     text-align: center;
   }
 
-  #header a:has(> div){
+  agendar-horario{
     text-align: center;
   }
   .mt-5{
