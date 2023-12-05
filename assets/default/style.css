@@ -239,10 +239,10 @@
   }
   .card-img {
     display: flex;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
   }
-  
+
   .card-img img{
     width: 199.7px !important;
   }
