@@ -226,10 +226,9 @@
     margin-top: 1rem
   }
   .servicos-inicio {
-    margin-top: -8rem;
     height: 4rem;
-    margin-left: auto;
-    justify-content: space-around;
+    /* margin-left: auto; */
+    /* justify-content: space-around; */
     width: 100%;
     align-items: flex-end;
   }
