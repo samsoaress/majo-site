@@ -222,7 +222,7 @@
     text-align: center;
   }
 
-  #header a:has(){
+  #header a:has(> div){
     text-align: center;
   }
   .mt-5{
