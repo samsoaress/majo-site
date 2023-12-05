@@ -238,7 +238,7 @@
     font-size: 2.7rem;
   }
   .card-img {
-    display: flex;
+    display: block;
     justify-content: center !important;
   }
 
