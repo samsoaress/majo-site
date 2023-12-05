@@ -237,18 +237,20 @@
   .carousel i{
     font-size: 2.7rem;
   }
-  .card-img {
-    display: block;
-    justify-content: center !important;
-  }
-
-  .card-img img{
-    width: 199.7px !important;
-  }
-
-  .carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev{
-    display: block !important;
-  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
 }
 
