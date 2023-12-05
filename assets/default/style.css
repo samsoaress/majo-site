@@ -215,6 +215,8 @@
   #header h1{
     font-size: 32px;
     text-align: center;
+    padding: 0;
+    margin-bottom: 1rem !important;
   }
   #header h3{
     font-size: 16px !important;
