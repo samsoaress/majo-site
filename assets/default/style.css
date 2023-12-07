@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Mitr:wght@400;700&family=Modak&family=Roboto:wght@400;700&display=swap');
 
-
+body {
+  font-family: mitr;
+}
 
 #inicio {
   padding: 0 0 0 4rem !important;
@@ -64,6 +66,13 @@
   padding: 0 6rem;
 }
 
+.NomeDotextodoServiço h2 {
+  margin-bottom: 4rem;
+}
+
+#Conheçaclub h4 {
+  font-size: 2.4rem;
+}
 
 #servicos h2 {
   text-align: left;
@@ -103,6 +112,9 @@
   width: 100%;
 }
 
+.carousel-indicatorss {
+  display: none;
+}
 
 .card {
   background-color: #fff;
@@ -157,14 +169,28 @@
   color: #38BBC9;
 }
 
+.card-img {
+  background: #fff !important;
+}
+
 .card-img img {
   padding: 0 10px;
+  background: #fff !important;
+
 }
 
 #video05-2c .cid-tX8esStH6W .carousel-control {
   background: none !important;
   border: none !important;
   transition: none !important;
+}
+
+.carousel-item {
+  background: #fff;
+}
+
+.cid-tX8x7DbbI3 .carousel-item {
+  background: none;
 }
 
 #video05-2c .carousel-item {
@@ -214,24 +240,53 @@
 }
 
 /* Responsivo */
-
-
-
-
 @media (max-width: 768px) {
-  .carousel-indicators {
-    display: none;
+
+  .footer h5 {
+    text-align: center;
   }
 
+  .NomeDotextodoServiço h2 {
+    font-size: 1.7rem !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .cid-tX8eDiqsJ0 .mbr-text, .cid-tX8eDiqsJ0 .mbr-section-btn {
+    color: #232323;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+
+  .cid-tX8eDiqsJ0 .card-title, .cid-tX8eDiqsJ0 .card-box {
+    text-align: center;
+  }
 
   #sobre-nos h1 {
     display: flex;
     justify-content: space-around;
   }
 
+  #sobre-nos h2 {
+    text-align: center;
+    display: flex;
+    margin: 3rem;
+    margin-top: -1rem;
+
+  }
+
   #sobre-nos h4 {
     display: flex;
     justify-content: space-around;
+  }
+
+  #sobre-nos p {
+    font-size: 16px;
+    font-family: mitr;
+    padding: 1rem;
+    text-align: center;
+    margin-top: -4rem;
   }
 
   #depoimentos .carousel {
@@ -263,6 +318,20 @@
     margin: 2rem;
     padding: 1rem;
     margin-top: -1rem;
+  }
+
+  .avaliaçãoGratis span {
+    font-size: 0.9rem !important;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .avaliaçãoGratis i {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
   }
 
   .avaliaçãoGratis strong {
