@@ -74,6 +74,10 @@ body {
   font-size: 2.4rem;
 }
 
+#servicos {
+  background-color: #fff;
+}
+
 #servicos h2 {
   text-align: left;
   font-weight: bold;
@@ -81,20 +85,31 @@ body {
   font-size: 36px;
 }
 
+#servicos label {
+  font-size: 18px;
+}
+
 #header h1 {
   font-size: 72px;
 }
 
+#header p {
+  font-size: 2.7rem;
+}
+
 #header h3 {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: 2.4rem;
 }
 
 #header a {
   font-size: 16px !important;
 }
 
-#servicos label {
-  font-size: 18px;
+.BemVINDO h5 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
 }
 
 .servicos-inicio {
@@ -241,6 +256,14 @@ body {
 
 /* Responsivo */
 @media (max-width: 768px) {
+  #header p {
+    font-size: 1.2rem;
+
+  }
+
+  .bi bi-arrow-right-circle {
+    margin-right: 29rem;
+  }
 
   .footer h5 {
     text-align: center;
@@ -263,9 +286,12 @@ body {
     text-align: center;
   }
 
+
   #sobre-nos h1 {
     display: flex;
     justify-content: space-around;
+
+
   }
 
   #sobre-nos h2 {
@@ -275,6 +301,8 @@ body {
     margin-top: -1rem;
 
   }
+
+
 
   #sobre-nos h4 {
     display: flex;
@@ -293,6 +321,8 @@ body {
     margin: none;
     padding: none;
   }
+
+
 
   .carousel-indicators {
     margin: -4rem;
