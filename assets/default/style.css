@@ -361,12 +361,6 @@ body {
     height: 42rem;
   }
 
-  .avaliacao-gratis strong {
-    font-size: 1.7rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
 
   .avaliacao-gratis a {
     justify-items: center;
