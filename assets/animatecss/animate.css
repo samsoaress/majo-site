@@ -2213,10 +2213,10 @@
   }
 }
 
-.animate__fadeInUpBig {
+/* .animate__fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
-}
+} */
 
 @-webkit-keyframes fadeInTopLeft {
   from {
