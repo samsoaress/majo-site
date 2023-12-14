@@ -449,7 +449,9 @@ body {
   #servicos #recipeCarousel3 a,
   #servicos #recipeCarousel4 a,
   #servicos #recipeCarousel5 a,
-  #servicos #recipeCarousel6 a {}
+  #servicos #recipeCarousel6 a {
+    margin-right: 0;
+  }
 
   .carousel-inner .carousel-item>div:first-child {
     display: block;
