@@ -430,9 +430,6 @@ body {
 
 
 @media (max-width: 768px) {
-  .carousel-inner .carousel-item>div {
-    display: none;
-  }
 
   #servicos #recipeCarousel1 a:last-child,
   #servicos #recipeCarousel2 a:last-child,
