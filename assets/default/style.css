@@ -476,7 +476,6 @@ body {
     transform: translateX(-25%);
   }
 
-
   .carousel-inner .carousel-item-end,
   .carousel-inner .carousel-item-start {
     transform: translateX(0);
