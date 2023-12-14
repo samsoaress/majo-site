@@ -462,7 +462,9 @@ body {
     display: block;
   }
 }
-avaliacao-gratis
+avaliacao-gratis ul{
+  
+}
 display: flex;
 justify-content: center;
 
