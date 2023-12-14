@@ -450,7 +450,7 @@ body {
   #servicos #recipeCarousel4 a,
   #servicos #recipeCarousel5 a,
   #servicos #recipeCarousel6 a {
-    margin-left: -5px;
+    margin-left: -1px;
   }
 
   .carousel-inner .carousel-item>div:first-child {
