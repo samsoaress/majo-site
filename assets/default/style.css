@@ -216,11 +216,6 @@ body {
   background: none;
 }
 
-#video05-2c .carousel-item {
-  align-content: center;
-  justify-content: center;
-}
-
 #video05-2c .embla__button:hover, #video05-2c .carousel-control:hover {
   background: none !important;
   opacity: 1 !important;
