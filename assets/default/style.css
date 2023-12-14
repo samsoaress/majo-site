@@ -362,13 +362,6 @@ body {
   }
 
 
-  .avaliacao-gratis a {
-    justify-items: center;
-    text-align: center;
-    display: flex;
-    margin: 2rem;
-  }
-
   #sobre-nos>div>div {
     flex-direction: column-reverse;
   }
