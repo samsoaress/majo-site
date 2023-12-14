@@ -211,9 +211,7 @@ body {
 }
 
 .carousel-inner {
-  position: relative;
   width: max-content;
-  overflow: hidden;
 }
 
 .carousel-control-next, .carousel-control-prev{
