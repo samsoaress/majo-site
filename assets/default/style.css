@@ -476,7 +476,9 @@ body {
   #servicos #recipeCarousel3 a:last-child,
   #servicos #recipeCarousel4 a:last-child,
   #servicos #recipeCarousel5 a:last-child,
-  #servicos #recipeCarousel6 a:last-child {}
+  #servicos #recipeCarousel6 a:last-child {
+    
+  }
 
 
   .carousel-inner .carousel-item-start.active,
