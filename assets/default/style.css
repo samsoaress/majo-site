@@ -361,13 +361,13 @@ body {
     height: 42rem;
   }
 
-  .avaliaçãoGratis {
+  .avaliacao-gratis {
     margin: 2rem;
     padding: 1rem;
     margin-top: -1rem;
   }
 
-  .avaliaçãoGratis span {
+  .avaliacao-gratis span {
     font-size: 0.9rem !important;
     display: flex;
     justify-content: space-around;
@@ -375,20 +375,20 @@ body {
     margin-bottom: 1rem;
   }
 
-  .avaliaçãoGratis i {
+  .avaliacao-gratis i {
     font-size: 0.8rem;
     display: flex;
     justify-content: center;
   }
 
-  .avaliaçãoGratis strong {
+  .avaliacao-gratis strong {
     font-size: 1.7rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  .avaliaçãoGratis a {
+  .avaliacao-gratis a {
     justify-items: center;
     text-align: center;
     display: flex;
