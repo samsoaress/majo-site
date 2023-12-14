@@ -136,7 +136,7 @@ body {
 }
 
 .card {
-  border: n;
+  border: none;
   border-radius: 0.25rem;
 }
 
