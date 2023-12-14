@@ -483,7 +483,7 @@ body {
 }
 
 /* medium and up screens */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
   .carousel-inner .carousel-item-end.active,
   .carousel-inner .carousel-item-next {
@@ -497,7 +497,7 @@ body {
   .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
-}
+} */
 
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
