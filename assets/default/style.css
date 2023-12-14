@@ -375,11 +375,6 @@ body {
     margin-bottom: 1rem;
   }
 
-  .avaliacao-gratis i {
-    font-size: 0.8rem;
-    display: flex;
-    justify-content: center;
-  }
 
   .avaliacao-gratis strong {
     font-size: 1.7rem;
