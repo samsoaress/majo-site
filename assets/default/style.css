@@ -361,15 +361,6 @@ body {
     height: 42rem;
   }
 
-  .avaliacao-gratis span {
-    font-size: 0.9rem !important;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-
   .avaliacao-gratis strong {
     font-size: 1.7rem;
     display: flex;
