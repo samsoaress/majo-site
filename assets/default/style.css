@@ -434,6 +434,10 @@ body {
   display: flex;
 }
 
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
 
 @media (max-width: 767px) {
   .carousel-inner .carousel-item>div {
