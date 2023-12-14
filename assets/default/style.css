@@ -211,7 +211,8 @@ body {
 }
 
 .carousel-control-next, .carousel-control-prev{
-  
+  background: #d9d9d9;
+  opacity: 1;
 }
 
 .cid-tX8x7DbbI3 .carousel-item {
