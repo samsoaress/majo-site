@@ -27,7 +27,8 @@
 }
 
 #depoimentos .ratings {
-  display: flex;
+
+  margin-top: 4rem;
 }
 
 #depoimentos .carousel-item {
