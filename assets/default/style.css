@@ -441,11 +441,6 @@ body {
   }
 
 
-  #servicos #recipeCarousel1 a,
-  #servicos #recipeCarousel2 a,
-  #servicos #recipeCarousel3 a,
-  #servicos #recipeCarousel4 a,
-  #servicos #recipeCarousel5 a,
   #servicos .carousel-control-next a {
     margin-left: -1.2rem;
   }
