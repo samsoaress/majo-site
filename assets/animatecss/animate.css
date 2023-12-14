@@ -48,7 +48,7 @@
   animation-iteration-count: calc(var(--animate-repeat) * 3);
 }
 
-
+img-fluid animate__animated animate__delay-1s animate__fadeInUp
 
 /* 
 .animate__animated.animate__delay-1s {
