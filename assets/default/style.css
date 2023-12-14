@@ -453,10 +453,6 @@ body {
     margin-left: -12px;
   }
 
-  .carousel-inner .carousel-item>div:first-child {
-    display: block;
-  }
-
   .avaliacao-gratis ul li,
   .avaliacao-gratis h5 {
     display: flex;
