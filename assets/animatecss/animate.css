@@ -47,6 +47,9 @@
   -webkit-animation-iteration-count: calc(var(--animate-repeat) * 3);
   animation-iteration-count: calc(var(--animate-repeat) * 3);
 }
+
+
+
 /* 
 .animate__animated.animate__delay-1s {
   -webkit-animation-delay: 1s;
