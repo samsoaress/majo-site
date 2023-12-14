@@ -471,6 +471,8 @@ body {
     transform: translateX(25%);
   }
 
+  
+
   .carousel-inner .carousel-item-start.active,
   .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
