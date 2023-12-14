@@ -461,9 +461,11 @@ body {
   .carousel-inner .carousel-item>div:first-child {
     display: block;
   }
-  
 }
-
+.avaliacao-gratis ul li{
+  display: flex;
+  justify-content: center;
+}
 
 
 .carousel-inner .carousel-item.active,
