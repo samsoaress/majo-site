@@ -415,7 +415,31 @@ body {
 
 }
 
-@media (mini-width: 768px) {}
+
+@media (min-width: 457px) {
+
+  .avaliacao-gratis ul li,
+  .avaliacao-gratis h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+  }
+
+  .avaliacao-gratis h5 {
+    color: #A79383;
+    flex-direction: column;
+    font-size: 2.3rem;
+    text-align: center;
+    font-size: 2rem;
+
+    padding: 3rem;
+
+  }
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -426,9 +450,6 @@ body {
   #servicos .carousel-control-next a {
     margin-left: -1.2rem;
   }
-
-
-
 
   .avaliacao-gratis ul li,
   .avaliacao-gratis h5 {
@@ -447,11 +468,12 @@ body {
     font-size: 2rem;
     margin: 2rem;
 
+
   }
 
 
   .servicos-inicio {
-    bottom: -27.5rem;
+    bottom: -30.5rem;
   }
 
   #pricing01-2e h4 {
