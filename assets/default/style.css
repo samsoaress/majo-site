@@ -260,7 +260,7 @@ body {
     font-size: 2.2rem;
   }
 
-  #NossoEspaço h4 {
+  #NossoEspaco h4 {
     font-size: 2rem;
   }
 
@@ -415,8 +415,7 @@ body {
 
 }
 
-
-@media (min-width: 457px) {
+@media (min-width: 100px) {
 
   .avaliacao-gratis ul li,
   .avaliacao-gratis h5 {
@@ -427,19 +426,22 @@ body {
 
   }
 
+  #servicos .carousel-control-next, #servicos .carousel-control-prev {
+    background: #d9d9d9;
+    opacity: 1;
+    margin: 0rem;
+  }
+
   .avaliacao-gratis h5 {
     color: #A79383;
     flex-direction: column;
     font-size: 2.3rem;
     text-align: center;
     font-size: 2rem;
-
     padding: 3rem;
 
   }
 }
-
-
 
 @media (max-width: 768px) {
 
@@ -447,8 +449,10 @@ body {
     margin-right: -1.2rem;
   }
 
+
   #servicos .carousel-control-next a {
     margin-left: -1.2rem;
+
   }
 
   .avaliacao-gratis ul li,
@@ -481,7 +485,40 @@ body {
   }
 }
 
+#tX8AnmnXbS .embla__button:hover, #video05-2c .carousel-control:hover {
+  background: #d9d9d9 !important;
+  opacity: 1;
+}
 
+#tX8AnmnXbS .carousel-control-next, #tX8AnmnXbS .carousel-control-prev {
+  background: #d9d9d9 !important;
+  opacity: 1;
+}
+
+#NossoEspaco .col-8 .p-0 {
+  border-radius: 10px;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
@@ -490,21 +527,18 @@ body {
 }
 
 /* medium and up screens */
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
 
   .carousel-inner .carousel-item-end.active,
   .carousel-inner .carousel-item-next {
     transform: translateX(25%);
   }
 
-
-
-
   .carousel-inner .carousel-item-start.active,
   .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
-} */
+}
 
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
