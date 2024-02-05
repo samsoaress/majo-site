@@ -415,7 +415,15 @@ body {
 
 }
 
-@media (min-width: 100px) {
+@media (max-width: 720px) {
+  #servicos .carousel-control-next, #servicos .carousel-control-prev {
+    background: #d9d9d9;
+    opacity: 1;
+    margin: -0rem;
+  }
+}
+
+@media (min-width: 457px) {
 
   .avaliacao-gratis ul li,
   .avaliacao-gratis h5 {
@@ -426,11 +434,7 @@ body {
 
   }
 
-  #servicos .carousel-control-next, #servicos .carousel-control-prev {
-    background: #d9d9d9;
-    opacity: 1;
-    margin: 0rem;
-  }
+
 
   .avaliacao-gratis h5 {
     color: #A79383;
