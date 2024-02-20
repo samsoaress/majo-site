@@ -27,9 +27,16 @@
 
 #depoimentos .ratings {
 
-  margin-top: 4rem;
+  margin-top: 14rem;
 }
 
 #depoimentos .carousel-item {
   text-align: left;
+}
+
+@media (max-width: 720px) {
+  #depoimentos .ratings {
+
+    margin-top: 4rem;
+  }
 }
