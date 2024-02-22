@@ -16,3 +16,15 @@ for (var j = 1; j < 5; j++) {
         }
     })
 }
+function openMenu() {
+    var element = document.getElementById("navbarSupportedContent");
+    var body = document.getElementsByTagName("body");
+    if (element.classList.contains("d-none")) {
+        element.classList.remove("d-none");
+        body.classList.add("overflow-hidden");
+    } else {
+        element.classList.add("d-none");
+        body.classList.remove("overflow-hidden");
+    }
+
+}

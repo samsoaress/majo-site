@@ -247,8 +247,30 @@ body {
   background-color: #38BBC9 !important;
 }
 
+#servicos .carousel-control-next, #servicos .carousel-control-prev {
+  background: #d9d9d9;
+  opacity: 1;
+  margin: -8rem;
+}
+
 .SobreMajo {
   color: #38BBC9;
+}
+
+@media (max-width: 972px) {
+  #header h1 {
+    font-size: 1rem;
+  }
+
+
+
+  #header p {
+    font-size: 0.9rem
+  }
+
+  .servicos-inicio {
+    margin-bottom: -14rem;
+  }
 }
 
 /* Responsivo */
@@ -481,7 +503,7 @@ body {
 
 
   .servicos-inicio {
-    bottom: -30.5rem;
+    bottom: -14.5rem;
   }
 
   #pricing01-2e h4 {
